@@ -2,7 +2,7 @@
 import './style.css';
 let frutas = []
 let doces = []
-congelados =[]
+let congelados =[]
 let laticinios = []
 let comida = ""
 let categoria = "";
