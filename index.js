@@ -1,7 +1,8 @@
 // Import stylesheets
 import './style.css';
 let frutas = []
-let legumes = []
+let doces = []
+congelados =[]
 let laticinios = []
 let comida = ""
 let categoria = "";
@@ -17,5 +18,9 @@ while (adicinarMais !="não"){
   if (adicinarMais === "não"){
     break;
   }
+
+  comida = prompt('Qual comida você deseja inserir?')
+
+  categoria = prompt('Em qual categoria essa comida se encaixa: frutas, laticínios, doces ou congelados?')
 }
 
